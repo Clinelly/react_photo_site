@@ -11,6 +11,8 @@ import './App.css';
 // import ConditionalRenderingFunctional from './components/ConditionalRenderingFunctional';
 // import ConditionalRenderingClass from './components/ConditionalRenderingClass';
 // import NestingComponents from './components/NestingComponents';
+import MethodsAsPropsChild from './components/MethodsAsPropsChild';
+import MethodsAsPropsParent from './components/MethodAsPropsParent';
 
 function App() {
   return (
@@ -26,6 +28,8 @@ function App() {
         <ConditionalRenderingFunctional connected={false} />
         <ConditionalRenderingClass /> */}
         {/* <NestingComponents /> */}
+        <MethodsAsPropsParent />
+        <MethodsAsPropsChild />
     </div>
   );
 }
