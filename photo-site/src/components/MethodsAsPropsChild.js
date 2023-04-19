@@ -12,11 +12,12 @@ function MethodsAsPropsChild(props) {
                             <li>Complete your profile</li>
                             <li>Subscribe to the newsletter</li>
                         </ol>
+                        <button onClick={props.handleSignOut}>Sign Out</button>
                     </div>
                 ) : (
                     <div>
                     <p>Please sign in</p>
-                    <button>Sign In</button>
+                    <button onClick={props.handleSignIn}>Sign In</button>
                     </div>
                 )
             }

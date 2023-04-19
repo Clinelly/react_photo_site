@@ -29,7 +29,7 @@ function App() {
         <ConditionalRenderingClass /> */}
         {/* <NestingComponents /> */}
         <MethodsAsPropsParent />
-        <MethodsAsPropsChild />
+        {/* <MethodsAsPropsChild /> */}
     </div>
   );
 }
